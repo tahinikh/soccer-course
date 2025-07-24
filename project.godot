@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="soccer courceee"
+config/name="Soccer Course"
 run/main_scene="uid://ds7j8k6j1tvfh"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
