@@ -11,7 +11,7 @@
 
 [node name="grass" type="Sprite2D" parent="backgrounds"]
 modulate = Color(0.517647, 0.803922, 0.164706, 1)
-position = Vector2(2, 2)
+position = Vector2(5, 3)
 texture = ExtResource("1_4wyf3")
 centered = false
 
@@ -29,3 +29,9 @@ centered = false
 
 [node name="Player" parent="." instance=ExtResource("4_k0juu")]
 position = Vector2(160, 103)
+
+[node name="Player2" parent="." instance=ExtResource("4_k0juu")]
+position = Vector2(168, 161)
+
+[node name="Player3" parent="." instance=ExtResource("4_k0juu")]
+position = Vector2(248, 108)
