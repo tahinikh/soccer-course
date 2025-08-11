@@ -9,7 +9,7 @@ enum ControlScheme {CPU, P1, P2}
 @onready var animation_player : AnimationPlayer = %AnimationPlayer
 
 func _process(delta: float) -> void:
-	var direction := Input.get_vector("p1_left", "p1_right", "p1_up", "p1_down")
+	var direction := KeyUtils.get_input_vector(control_scheme)
 	velocity = direction * speed
 	
 	if velocity.length() > 0:
